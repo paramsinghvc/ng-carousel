@@ -1,0 +1,60 @@
+.pCarousel {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #000;
+}
+.pCarousel * {
+    padding: 0;
+    margin: 0;
+}
+.pCarousel .mainWrapper {
+    overflow: hidden;
+}
+.pCarousel .mainWrapper .carouselWrapper {
+    overflow: hidden;
+}
+.pCarousel .mainWrapper .carouselWrapper .navigationBtn {
+    height: 100%;
+    color: #fff;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    padding-top: 26%;
+    cursor: pointer;
+    margin-top: -25px;
+    font-size: 51px;
+}
+.pCarousel .mainWrapper .carouselWrapper .navigationBtn.right {
+    right: 0;
+}
+.pCarousel .mainWrapper .carouselWrapper ul {
+    list-style: none;
+    position: relative;
+}
+.pCarousel .mainWrapper .carouselWrapper ul li {
+    height: 100%;
+    float: left;
+}
+.pCarousel .mainWrapper .thumbsWrapper {
+    padding: 10px 0;
+    overflow: auto;
+    border: 1px solid #ffc;
+}
+.pCarousel .mainWrapper .thumbsWrapper ul {
+    list-style: none;
+    text-align: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    height: 80px;
+}
+.pCarousel .mainWrapper .thumbsWrapper ul li {
+    display: inline-block;
+    width: 80px;
+    margin-right: 5px;
+    height: 80px;
+}
+.pCarousel .mainWrapper .thumbsWrapper ul li img {
+    width: 80px;
+    height: 80px;
+}

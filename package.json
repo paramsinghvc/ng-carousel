@@ -1,0 +1,27 @@
+{
+  "name": "ngcarousel",
+  "version": "1.0.0",
+  "description": "An AngularJS Carousel with Thumbnails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Param Singh",
+  "license": "ISC",
+  "directories": {
+    "example": "example"
+  },
+  "keywords": [
+    "angular",
+    "ngcarousel",
+    "carousel",
+    "jquery",
+    "animation",
+    "slider",
+    "slides",
+    "javascript",
+    "angularjs",
+    "js",
+    "video"
+  ]
+}
